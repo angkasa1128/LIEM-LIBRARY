@@ -752,7 +752,7 @@ function liem.new(title, options)
             logo.Image = getcustomasset(path)
         else
             -- Fallback: create a simple text logo
-            logo.Image = ""
+            logo.Image = "rbxassetid://139517184769677"
             logo.BackgroundTransparency = 0
             logo.BackgroundColor3 = liem.theme.accent
             logo.Size = UDim2.fromOffset(200, 80)
